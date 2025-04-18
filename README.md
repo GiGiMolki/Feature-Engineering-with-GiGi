@@ -8,16 +8,27 @@ This repository is dedicated to mastering **Feature Engineering techniques** cri
 
 feature-engineering-aion/
 ├── 0_basics/                    # Fundamental data preprocessing and transformation
+
 │   ├── 01_data_cleaning.py       # Handling missing values, outliers, duplicates
+
 │   ├── 02_scaling_normalization.py # MinMax, StandardScaler, RobustScaler, etc.
+
 │   ├── 03_encoding.py            # LabelEncoding, OneHotEncoding, Frequency Encoding
+
 │   ├── 04_feature_creation.py    # Polynomial features, interaction terms, custom features
+
 │   ├── 05_feature_extraction.py  # Extracting features from date, text, and other domains
+
 │   └── 06_feature_selection.py   # Filtering, Wrappers, Embedded methods (e.g., Lasso, RF)
 
+
+
 ├── 1_statistical_features/      # Statistical features (for HFT time-series & signals)
+
 │   ├── 01_moving_averages.py    # Simple, Exponential, Cumulative, Rolling averages
+
 │   ├── 02_volatility_features.py # Rolling volatility, Average True Range (ATR)
+
 │   ├── 03_return_features.py    # Log returns, percent changes, return to volatility ratios
 │   ├── 04_correlation_features.py # Correlation matrices, correlation lags
 │   └── 05_rolling_stats.py      # Moving variance, mean, skewness, kurtosis
