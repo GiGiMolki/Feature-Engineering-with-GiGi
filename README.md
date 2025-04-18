@@ -129,19 +129,19 @@ feature-engineering-aion/
 Foundational preprocessing tools: data cleaning, encoding, scaling, normalization, and basic feature transformations for structured data.
 
 ### `1_statistical_features/`
-Deriving features from historical prices and returns — including rolling statistics, volatility estimates, and statistical signals used in alpha modeling.
+Deriving features from historical prices and returns, including rolling statistics, volatility estimates, and statistical signals used in alpha modeling.
 
 ### `2_temporal_features/`
-Engineering features based on **time-of-day**, **lags**, **resampling**, and **temporal behaviors**, crucial for modeling order-driven time-series in HFT.
+Engineering features based on **time-of-day**, **lags**, **resampling**, and **temporal behaviors**, crucial for modeling order-driven time series in HFT.
 
 ### `3_market_microstructure/`
-Features extracted from real-time order book and trade flow data — like bid-ask spreads, depth imbalance, and market impact — used in execution and alpha models.
+Features extracted from real-time order book and trade flow data — like bid-ask spreads, depth imbalance, and market impact — are used in execution and alpha models.
 
 ### `4_financial_metrics/`
 Technical indicators such as **VWAP**, **MACD**, **RSI**, and **Bollinger Bands** that help quantify market states and trend/momentum signals.
 
 ### `5_advanced_methods/`
-Modern and nonlinear transformations, NLP features from unstructured data (e.g. news, Twitter), autoregressive modeling, and matrix factorization techniques.
+Modern and nonlinear transformations, NLP features from unstructured data (e.g., news, Twitter), autoregressive modeling, and matrix factorization techniques.
 
 ### `6_feature_selection/`
 Strategies for selecting the most relevant features: filtering, wrappers (RFE), embedded models (Lasso, RF), and dimensionality reduction (PCA, ICA, etc.).
@@ -150,7 +150,7 @@ Strategies for selecting the most relevant features: filtering, wrappers (RFE), 
 Curated set of feature engineering questions, case studies, and problem challenges designed to prepare for **quant/HFT machine learning interviews**.
 
 ### `assets/`
-Supporting diagrams, sample outputs, and small datasets used throughout the repo for visual explanations and experimentation.
+Supporting diagrams, sample outputs, and small datasets are used throughout the repo for visual explanations and experimentation.
 
 ---
 
@@ -159,7 +159,7 @@ Supporting diagrams, sample outputs, and small datasets used throughout the repo
 This repository is part of my modular knowledge base for building intelligent HFT systems. Specifically, it prepares me to:
 
 - Construct low-latency, information-rich features from structured and unstructured trading data.
-- Preprocess and select high-quality inputs for ML models used in **signal generation**, **execution optimization**, and **portfolio risk management**.
+- Preprocess and select high-quality inputs for ML models used in signal generation, execution optimization, and portfolio risk management.
 - Build reusable feature pipelines compatible with future development of **AION Nexus** — my evolving alpha engine project.
 - Prepare for quant interviews and real-world HFT engineering tasks.
 
@@ -196,9 +196,6 @@ Each script is:
 ## 📬 Contact
 
 Work in progress by [GiGi Molki] — Future HFT ML Engineer.  
-Feel free to connect or collaborate via GitHub or email.
+Please feel free to connect or collaborate with me through GitHub or email.
 
----
-```
 
-Let me know if you’d like me to generate this file locally on your system or help push it to GitHub too.
